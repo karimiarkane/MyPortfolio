@@ -30,3 +30,17 @@
 .slash {
     font-size: 20px;
 }
+
+@media screen and (max-width:768px) {
+
+    .close-tag  ,.open-tag , .title-text {
+        font-size: 25px;
+    }   
+    .title{
+        margin: 20px 0 10px 0;
+    } 
+    .title-container{
+        padding: 20px 0 0 0;
+    }
+
+    }
