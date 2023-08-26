@@ -1,0 +1,92 @@
+
+.about-me{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.about-me-container{
+display: flex;
+justify-content:space-evenly;
+}
+
+.left-about{
+    width: 30%;
+}
+.about-image{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.right-about{
+    width: 50%;
+   
+}
+.right-about .btns{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.btns button{
+    width: 25%;
+    margin-right: 2%;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: 700;
+    border-radius: 50em;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #5b43d6;
+    border: 2px solid #5b43d6;
+    color: #fff;   
+}
+.more-about{
+    font-size: 50px;
+    margin: 5% 0;
+
+}
+.about-text{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.btns .active-btn{
+
+   border: 2px solid #5b43d6;
+
+   color: #f2cf00;
+}
+
+@media screen and (max-width : 1200px) {
+    .left-about{
+        width: 40%;
+    } 
+    .btns button{
+        width: 30%;}
+}
+@media screen and (max-width : 960px) {
+    .left-about{
+        width: 45%;
+    } 
+    .btns button{
+        width: 33%;}
+        .about-me-container{
+            display: flex;
+            justify-content:space-between;
+            }
+}
+@media screen and (max-width : 768px) {
+    .left-about{
+        display: none;
+    } 
+    .right-about{
+        width: 100%;
+    }
+    .more-about{
+        font-size: 40px;
+        margin: 2% 0;
+    
+    }
+}

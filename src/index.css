@@ -1,13 +1,100 @@
-body {
+/* general style and variables*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* css variables ***************************/ 
+:root{
+  --color-bg: #FFFFFF;
+  --color-primary-light:#7a19f1;
+  --color-primary-dark:#332179;
+  --color-text-primary: #1D1D24DF;
+  --color-text-secondary-light:#C6C9D8BA;
+  --color-text-secondary-dark:#1F1F25;
+  --color-secondary-yellow:#f2cf00;
+  --container-width-large : 92%;
+  --container-width-middle: 95%;
+  --container-width-small:98%;  
+  --transition : all 0.8s ease;
+}
+/**************************************************************/
+[theme = "dark-mode"]{
+  --color-bg: #1f1f38;
+  --color-primary-light:#4db5ff;
+  --color-primary-dark:#2c2c6c;
+  --color-text-primary: #ffffff;
+  --color-text-secondary-light:#ffffff;
+  --color-text-secondary-dark:#ffffff;
+}
+/***********end css variable******************************/
+/*************************for the dark effect in the background when the navabr is opened*******/
+[navbar = "opened"]{
+  background-color:  rgba(0, 0, 0, 0.8);
+}
+/*****************************************************************/
+/***essencial and general styling****************************/
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;/*for links */
+  list-style: none; /* for lists*/
+  z-index: 10;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+
+/*****same in all components****************/
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  height: 3000px;
+  z-index: 10;
+}
+
+.container{
+  width: var(--container-width-large);
+  margin: 0 auto;
+}
+
+a{
+  transition: var(--transition);
+}
+a:hover{
+ color: var(--color-secondary-yellow);
+}
+.icon{
+ height: 20px;
+ width: 20px;
+ cursor: pointer;
+}
+
+
+/*****end same in all components****************/
+
+
+
+
+
+/*****************general media query ************************/
+
+@media screen and (max-width: 600px) {
+ .container{
+  width:  var(--container-width-small)
+ }
+  
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+   width:  var(--container-width-middle)
+  }
+   
+ }

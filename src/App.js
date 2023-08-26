@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+import AboutMe from "./Components/AboutMe/AboutMe"
+import Services from "./Components/AboutMe/Services/Services";
+
 
 function App() {
+let header
+ window.addEventListener("load",()=>{
+  header =  document.querySelector('#header')
+  const home = document.querySelector('.home')
+  const options = {}
+  
+  
+  const observer = new IntersectionObserver(function(entries , observer){
+entries.forEach((entry)=>{
+  if (!entry.isIntersecting){
+  header.classList.add('slighter')
+  }
+  else{
+    header.classList.remove('slighter')
+  }
+})
+  },options)
+
+observer.observe(home)
+
+ }  )
+ 
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header></Header>
+      <Home />
+      <AboutMe/>
+      <Services/>
+      
+      
+    </>
   );
 }
 
