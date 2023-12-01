@@ -1,0 +1,18 @@
+.Service{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Service-container{
+    text-align: center;
+
+}
+img{
+    border-radius: 20%;
+    width: 300px;
+    height: 200px;
+}
+h3{
+    padding: 12px;
+}

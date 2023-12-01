@@ -16,6 +16,7 @@ const Header = () => {
     setLightMode(!lightMode);
   }
   /********************************************** */
+  /* get the size of the window in  every resize*/
   const [width, setWidth] = useState(window.innerWidth);
   function handleResize() {
     setWidth(window.innerWidth);
@@ -77,6 +78,7 @@ const Header = () => {
             <li>
               <a href="#Contact">Contact</a>
             </li>
+            
             <div className="toggle-btn-mode" onClick={hundleToggleBtnMode}>
               {width > 768 && lightMode && (
                 <FontAwesomeIcon icon={faMoon} className="icon" />
