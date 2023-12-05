@@ -9,7 +9,7 @@ const Home = () => {
     
     
   return (
-    <div className="home" style={{marginTop :'60px'}}>
+    <div className="home section" id='Home' style={{marginTop :'60px'}}>
         <div className="container home-container">
             <div className="left-side">
                 <div className="text">

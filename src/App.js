@@ -3,6 +3,9 @@ import Home from "./Components/Home/Home";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Services from "./Components/Services/Services";
 
+import { useEffect } from "react";
+import Projects from "./Components/Projects/Projects";
+
 function App() {
   //this is for changing the color of the
   let header;
@@ -23,12 +26,16 @@ function App() {
     observer.observe(home);
   });
 
+  /***************************************************************************/
+
+
   return (
     <>
       <Header></Header>
       <Home />
       <AboutMe />
       <Services />
+      <Projects/>
     </>
   );
 }

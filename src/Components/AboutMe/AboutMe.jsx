@@ -26,7 +26,7 @@ const AboutMe = () => {
   return (
     <>
       <Title title="AboutMe" />
-      <div className="about-me">
+      <div className="about-me section"  id="about_me">
         <div className="about-me-container container">
           <div className="image left-about">
             <img src={Image3} className="about-image" alt="mkachha" />

@@ -1,0 +1,19 @@
+
+.filter .filterContainer ul li {
+    padding: 2px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    /* border-bottom: 1px solid gray; */
+}
+ .filter .filterContainer h3{
+    padding:  10px 0 ;
+     border-bottom: 2px solid gray; 
+     color: rgb(214, 214, 214);
+} 
+.filter .filterContainer ul li input {
+    font-size: 20px;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+} 

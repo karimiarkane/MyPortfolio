@@ -22,6 +22,9 @@ header {
 a,.logo_container,.icon{
   color:#fff
 }
+.rightside_Header ul li .active{
+color: #f2cf00;
+}
 /* the white navbar*/
 .slighter{
   background-color: #fff;
@@ -32,12 +35,16 @@ a,.logo_container,.icon{
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
   animation: headerSticky 0.95s ease forwards;
 }
+
 .slighter .Header-container .rightside_Header .navbar  li a ,.slighter .Header-container .leftside_Header {
   color: black;
 }
 .slighter .Header-container .rightside_Header .icon{
   color: black;
 }
+.slighter .Header-container .rightside_Header  .navbar li .active{
+  color: #f2cf00;
+  }
 /*end  the white navbar*/
 
 @media screen and (max-width: 600px) {
@@ -73,6 +80,7 @@ a,.logo_container,.icon{
   .navbar.active li a:hover{
     color: #f2cf00;
   }
+
   /*********************************/
 }
 @media screen and (min-width: 1300px) {

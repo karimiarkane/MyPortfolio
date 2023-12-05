@@ -3,6 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.Service:hover{
+    transform: translateY(-10px);
 }
 .Service-container{
     text-align: center;
@@ -13,6 +19,8 @@ img{
     width: 300px;
     height: 200px;
 }
-h3{
+.Service .Service-container h3{
     padding: 12px;
+    color: #7a19f1;
+    
 }
