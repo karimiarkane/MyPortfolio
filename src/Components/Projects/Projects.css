@@ -52,8 +52,11 @@
 
 @media screen and (max-width : 768px ){
     .filter ,.sort{
-        width: 45%;
+        width: 48%;
         /* border: 2px solid; */
+    }
+    .filterSort{
+        gap: 5px;
     }
     
 }

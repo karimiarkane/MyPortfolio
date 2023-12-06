@@ -83,7 +83,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container Header-container">
-        <div className="leftside_Header logo_container">khsni logo</div>
+        <div className="leftside_Header logo_container">khsni logoo</div>
 
         <div className="rightside_Header">
           <div className="toggle-btn-mode" onClick={hundleToggleBtnMode}>
