@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.67690020.css",
-    "main.js": "/MyPortfolio/static/js/main.e563d674.js",
+    "main.css": "/MyPortfolio/static/css/main.3c6368ef.css",
+    "main.js": "/MyPortfolio/static/js/main.4767eabe.js",
     "static/media/Black White Minimalist CV Resume.pdf": "/MyPortfolio/static/media/Black White Minimalist CV Resume.7b27d57232378f5bced4.pdf",
     "static/media/teaching.jpg": "/MyPortfolio/static/media/teaching.dc4f9c8e220316d19c1d.jpg",
     "static/media/seo1.jpg": "/MyPortfolio/static/media/seo1.889ec21c25da628e4b1a.jpg",
@@ -11,11 +11,11 @@
     "static/media/backend.jpg": "/MyPortfolio/static/media/backend.0298674b7233f7d7128a.jpg",
     "static/media/api.jpg": "/MyPortfolio/static/media/api.563088839b1b23cef92d.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.67690020.css.map": "/MyPortfolio/static/css/main.67690020.css.map",
-    "main.e563d674.js.map": "/MyPortfolio/static/js/main.e563d674.js.map"
+    "main.3c6368ef.css.map": "/MyPortfolio/static/css/main.3c6368ef.css.map",
+    "main.4767eabe.js.map": "/MyPortfolio/static/js/main.4767eabe.js.map"
   },
   "entrypoints": [
-    "static/css/main.67690020.css",
-    "static/js/main.e563d674.js"
+    "static/css/main.3c6368ef.css",
+    "static/js/main.4767eabe.js"
   ]
 }
