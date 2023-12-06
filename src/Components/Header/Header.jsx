@@ -8,8 +8,11 @@ import { useEffect } from "react";
 const Header = () => {
   /****************************************************** */
   const [mobileNavbar, setmobileNavbar] = useState(false);
+
   function hundleToggleBtnNavbar() {
     setmobileNavbar(!mobileNavbar);
+
+    
   }
   /*********************************************************** */
   const [lightMode, setLightMode] = useState(true);
@@ -19,9 +22,11 @@ const Header = () => {
   /********************************************** */
   /* get the size of the window in  every resize*/
   const [width, setWidth] = useState(window.innerWidth);
+  
   function handleResize() {
     setWidth(window.innerWidth);
   }
+
   window.addEventListener("resize", handleResize);
   /********************************************** */
   if (!lightMode) {
@@ -83,6 +88,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container Header-container">
+
         <div className="leftside_Header logo_container">khsni logoo</div>
 
         <div className="rightside_Header">
