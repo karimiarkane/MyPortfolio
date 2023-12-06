@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../Title/Title";
 import "./Services.css";
-import Service from "../Service/Service";
+import Service from "./Service/Service";
 import ecommeceImg from "../../assets/ecommerce.jpg";
 import apiImg from "../../assets/api.jpg";
 import backendImg from "../../assets/backend.jpg";
