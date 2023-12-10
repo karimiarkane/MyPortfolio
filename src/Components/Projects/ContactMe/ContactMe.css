@@ -1,0 +1,11 @@
+.contactMeContainer form input  , .contactMeContainer form textarea    {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+    height: 50px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}

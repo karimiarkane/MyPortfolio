@@ -5,6 +5,7 @@ import Services from "./Components/Services/Services";
 
 import { useEffect } from "react";
 import Projects from "./Components/Projects/Projects";
+import ContactMe from "./Components/Projects/ContactMe/ContactMe";
 
 function App() {
   //this is for changing the color of the
@@ -31,11 +32,13 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      <Header/>
       <Home />
       <AboutMe />
       <Services />
       <Projects/>
+      <ContactMe/>
+
     </>
   );
 }
