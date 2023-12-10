@@ -14,19 +14,17 @@ Welcome to my portfolio! This repository showcases my projects and provides info
 
 This repository serves as my online portfolio, where you can learn more about me and explore the projects I've worked on.
 
-## Projects
+##Some of my  Projects
 
 1. **Project 1**
-   - Description: this project is m.
-   - Link: [Project 1](link-to-project-1)
-
+   - Description: carpooling app multiplatform 
+   -
 2. **Project 2**
-   - Description: Brief description of Project 2.
-   - Link: [Project 2](link-to-project-2)
+   - Description:My portfolio
+   
 
-   <!-- Add more projects as needed -->
 
-## Technologies Used
+## Technologies Used in this projects
 
 
 - CSS
