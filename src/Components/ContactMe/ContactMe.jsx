@@ -3,6 +3,13 @@ import "./ContactMe.css";
 import Title from "../Title/Title";
 import emailjs from '@emailjs/browser';
 import img from "./enlarge_myimage.jpg"
+import { SiGmail } from "react-icons/si";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 
 const ContactMe = () => {
     const form = useRef();
@@ -32,7 +39,14 @@ const ContactMe = () => {
             <textarea name="message"  placeholder="message" required/>
             <input type="submit" className="submitBtn" value="Send"  />
           </form>
-          <img src={img} alt="" />
+        <div className="contact">
+<ul>
+  <li>
+    <FaFacebook/>
+    <a href=""></a>
+  </li>
+</ul>
+        </div>
         </div>
       </div>
     </div>

@@ -5,9 +5,8 @@ import Filter from "./Filter/Filter";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
  import carpoolingImg from "../../assets/couvoiturage.jpg";
  import portfolioImg from "../../assets/portfolio.jpg";
- import signalerImg from "../../assets/signaler.jpg";
+ import signalerImg from "../../assets/report.jpg";
  import askImg from "../../assets/askquestion.jpg";
- import memoryGameImg from "../../assets/game.jpg";
  import schoolManagement from "../../assets/schoolManagement.jpg";
 import Project from "./Project/Project";
 
@@ -21,7 +20,7 @@ const ProjectList = [
     title : "carpooling App",
     description : "Carpooling app aimed to address the growing need for efficient and sustainable transportation solutions.",
     service : ["ui"],
-    technologies : ["flutter" , "firebase"]
+    technologies : ["figma"]
   },
   {
     image : portfolioImg,
@@ -35,7 +34,7 @@ const ProjectList = [
     title : "school management system",
     description : "a platform to manage a university.",
     services : ["ui"],
-    technologies : null
+    technologies : "figma"
   },
   {
     image :  askImg,
@@ -91,8 +90,8 @@ const ProjectList = [
 
   /****************************************************************** */
 
-  const serviceFilter = ["Ecommerce", "FrontEnd", "Backend", "gestion" , "Ui"];
-  const technologiesFilter = ["Reactjs", "Expressjs", "Nodejs", "wordpress","vanilaJS"];
+  const serviceFilter = [ "FrontEnd", "Ui"];
+  const technologiesFilter = ["Reactjs", "vanilaJS" , "figma"];
   return (
     <div className="Projects">
       <div className="projectsContainer container">
