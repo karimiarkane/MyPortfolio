@@ -146,7 +146,7 @@ const ProjectList = [
      <div className="projectList">
       {
         ProjectList.map((item,index)=>(
-          <Project project = {item}/>
+          <Project project = {item} />
         ))
       }
      </div>

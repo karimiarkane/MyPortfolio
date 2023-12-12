@@ -9,7 +9,7 @@ const Project = ({project}) => {
             <h3 className='projectTitle'>{project.title}</h3>
             <div className="discription">{project.description}</div>
             <div className="view-demo">
-                <input type="button" value="github" className='github' />
+                <a href={project.url}></a>
                 {false  &&   <input type="button" value="demo" /> }
             </div>
         </div>
