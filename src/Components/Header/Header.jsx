@@ -16,6 +16,7 @@ const Header = () => {
   }
   /*********************************************************** */
   const [lightMode, setLightMode] = useState(true);
+  
   function hundleToggleBtnMode() {
     setLightMode(!lightMode);
   }
@@ -122,11 +123,11 @@ const Header = () => {
                 Projects
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#Quotes" className="Quotes menuItem">
                 Quotes
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#Contact" className="Contact menuItem">
                 Contact

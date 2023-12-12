@@ -22,22 +22,22 @@
 }
 .project .projectContainer .projectTitle{
     padding: 12px;
-    color: #7a19f1;
+    color: var( --color-primary-light);
 }
 .view-demo {
     display: flex;
-    padding: 20px;
+    padding: 20px 0;
     justify-content: space-between;
 }
-.view-demo .github{
+.view-demo .view-demo-btn{
     padding: 10px 50px;
     cursor: pointer;
-    background-color: #5b43d6;
+    background-color:var( --color-primary-dark);
     color: white;
     border-radius: 5px;
 }
-.view-demo .github:hover{
+.view-demo .view-demo-btn:hover{
     background-color: white;
-    color: #5b43d6;
-    border: 2px solid #5b43d6;
+    color: var( --color-primary-dark);
+    border: 2px solid var( --color-primary-dark);
 }

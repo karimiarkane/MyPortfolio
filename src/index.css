@@ -5,8 +5,11 @@
 /* css variables ***************************/ 
 :root{
   --color-bg: #FFFFFF;
-  --color-primary-light:#7a19f1;
-  --color-primary-dark:#332179;
+  --color-primary-dark: #7a19f1;   
+  --color-primary-light:  #332179;
+    /* //navbar home */
+
+
   --color-text-primary: #1D1D24DF;
   --color-text-secondary-light:#C6C9D8BA;
   --color-text-secondary-dark:#1F1F25;
@@ -19,8 +22,11 @@
 /**************************************************************/
 [theme = "dark-mode"]{
   --color-bg: #1f1f38;
-  --color-primary-light:#4db5ff;
   --color-primary-dark:#2c2c6c;
+  
+  --color-primary-light:#4db5ff;
+
+
   --color-text-primary: #ffffff;
   --color-text-secondary-light:#ffffff;
   --color-text-secondary-dark:#ffffff;
@@ -55,7 +61,6 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text-primary);
-  height: 3000px;
   z-index: 10;
 }
 

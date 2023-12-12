@@ -25,7 +25,7 @@
     color:  var(--color-secondary-yellow);
 }
 .title-text{
-    color: #7a19f1;
+    color: var(--color-primary-light);
 }
 .slash {
     font-size: 20px;

@@ -9,25 +9,16 @@
 
 
 
-.contactMeContainer form{
+.contactMeContainer .wrapper form{
     padding: 10px;
 
 
     /* border: 2px solid red;  */
 }
 
-.contactMeContainer form img{
- 
-    width: 350px;
 
-}
 
-.submitBtn{
-    padding: 0 20px;
-    cursor: pointer;
-    background-color: #5b43d6;
-    color: white;
-}
+
 .contactMeContainer form input  , .contactMeContainer form textarea    {
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -44,26 +35,69 @@
 .contactMeContainer form  .submitBtn{
     padding: 0 50px;
     cursor: pointer;
-    background-color: #5b43d6;
+    background-color: var(--color-primary-dark);
     color: white;
 }
 .contactMeContainer form  .submitBtn:hover{
     background-color: white;
-    color: #5b43d6;
-    border: 2px solid #5b43d6;
+    color: var(--color-primary-dark);
+    border: 2px solid var(--color-primary-dark);
 }
 
 .contactMeContainer form textarea{
     display: block;
 }
 
+/********************************************************/
+.contactMeContainer .contact{
+    width: 350px;
+}
+
+.contactMeContainer .contact ul{
+    /* border: 2px solid red ; */
+    width: 80%;
+}
+.contactMeContainer .contact ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.contactMeContainer .contact ul li a,.contactMeContainer .contact ul li p{
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    color: gray;
+    font-weight: bold;
+}
+.contactMeContainer .contact ul li a:hover{
+    color: #5b43d6;
+}
 
 @media screen and (max-width : 768px ) {
     .contactMeContainer form input  , .contactMeContainer form textarea{
         width: 98%;
+        margin: 20px;
     }
     .contactMeContainer .wrapper img{
        display: none;
        border: 2px solid red;
+    }
+    .contactMeContainer .wrapper{
+        display: block;
+    }
+    .contactMeContainer .wrapper form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contactMeContainer .contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .contactMeContainer .contact ul{
+      width: 60%;
     }
 }

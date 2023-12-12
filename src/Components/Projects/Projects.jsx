@@ -20,35 +20,43 @@ const ProjectList = [
     title : "carpooling App",
     description : "Carpooling app aimed to address the growing need for efficient and sustainable transportation solutions.",
     service : ["ui"],
-    technologies : ["figma"]
+    technologies : ["figma"],
+    visit : "https://www.figma.com/file/D5G47L60dlucjen8hWT1sW/app-ui?type=design&node-id=0%3A1&mode=design&t=D7QH2H1vuhwUFRRZ-1",
   },
   {
     image : portfolioImg,
     title : "My Portfolio",
     description : "a portfolio to  showcase my skills, experiences, and projects.",
     service : ["ui", "frontend"],
-    technologies : ["reactjs" ]
+    technologies : ["reactjs" ],
+    visit:"https://github.com/karimiarkane/MyPortfolio",
+    demo: "https://karimiarkane.github.io/MyPortfolio/"
   },
   {
     image :  schoolManagement,
     title : "school management system",
     description : "a platform to manage a university.",
     services : ["ui"],
-    technologies : "figma"
+    technologies : "figma",
+    visit :  "https://www.figma.com/file/TdcU5x6vMKFNoQsAa91FfK?type=design"
   },
   {
     image :  askImg,
     title : "FAQ ",
     description : "Web page FAQ for our carpooling app",
     services : ["frontend"],
-    technologies : ["vanilaJS"]
+    technologies : ["vanilaJS"],
+    visit : "https://github.com/karimiarkane/QuestionNroho.github.io",
+    demo: " https://karimiarkane.github.io/QuestionNroho.github.io/"
   },
   {
     image :  signalerImg,
     title : "Report User",
     description : "web page to report users",
     services : ["frontend"],
-    technologies : ["vanilaJS"]
+    technologies : ["vanilaJS"],
+    visit : "https://github.com/karimiarkane/NrohoSignaler.github.io",
+    demo:"https://karimiarkane.github.io/NrohoSignaler.github.io/"
   },
 ]
 
@@ -93,7 +101,7 @@ const ProjectList = [
   const serviceFilter = [ "FrontEnd", "Ui"];
   const technologiesFilter = ["Reactjs", "vanilaJS" , "figma"];
   return (
-    <div className="Projects">
+    <div className="Projects" id="Projects">
       <div className="projectsContainer container">
         <Title title="Projects" />
         <div className="filterSort">

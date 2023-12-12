@@ -3,7 +3,7 @@
 
 .home{
     /* border: 2px solid red; */
-    background-color:#7a19f1;
+    background-color:var(--color-primary-dark);
     padding: 60px 0;
 }
 .home-container{

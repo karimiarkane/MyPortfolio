@@ -15,7 +15,7 @@ const Services = () => {
     {
       imageSrc: frontendImg,
       serviceName: "front end ",
-      serviceDesciption: " I specialize in crafting interactive and responsive web applications using ReactJS. I am well-versed in HTML and CSS, creating seamless and aesthetically pleasing user interfaces.",
+      serviceDesciption: " I specialize in crafting interactive and responsive web applications using ReactJS, HTML and CSS",
     },
     {
       imageSrc: uiuxImg,
