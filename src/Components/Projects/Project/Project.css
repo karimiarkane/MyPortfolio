@@ -1,0 +1,43 @@
+.project{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+   
+
+}
+.project:hover{
+    transform: translateY(-10px);
+}
+.projectContainer{
+    text-align: center;
+
+}
+.project .projectContainer  img{
+    border-radius: 20%;
+    width: 300px;
+    height: 200px;
+}
+.project .projectContainer .projectTitle{
+    padding: 12px;
+    color: #7a19f1;
+}
+.view-demo {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.view-demo .github{
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: #5b43d6;
+    color: white;
+    border-radius: 5px;
+}
+.view-demo .github:hover{
+    background-color: white;
+    color: #5b43d6;
+    border: 2px solid #5b43d6;
+}

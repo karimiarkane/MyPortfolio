@@ -50,6 +50,12 @@
     cursor: pointer;
 }
 
+.projectList{
+    border: 2 solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+
 @media screen and (max-width : 768px ){
     .filter ,.sort{
         width: 48%;
@@ -58,5 +64,7 @@
     .filterSort{
         gap: 5px;
     }
+
+    
     
 }

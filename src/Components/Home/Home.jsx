@@ -5,6 +5,8 @@ import file from './Black White Minimalist CV Resume.pdf'
 
 
 
+
+
 const Home = () => {
     
     
@@ -15,7 +17,8 @@ const Home = () => {
                 <div className="text">
                     <p className='salutation'>Hello there welcome to my website</p>
                     <h1 className='first-last-name'>I'am karim Iarkane</h1>
-                    <h1 className='position'>Full Stack Web Developer </h1>
+                    <h1 className='position'>UI/UX designer </h1>
+                    {/* <h1 className='position'>Full stack Web developer designer </h1> */}
                 </div>
                 <div className="btn home-btn">
                     <a href={file} download={file}>Download cv</a>

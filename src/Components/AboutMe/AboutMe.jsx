@@ -5,9 +5,10 @@ import Image3 from "../Home/enlarge_myimage.jpg";
 
 const AboutMe = () => {
   let formation =
-    "I embarked on my educational journey with a strong passion for computer science, initially completing two years of focused study in high school. Recognizing the importance of advancing my knowledge and skills, I transitioned to the University of USTHB, where I enrolled as a second-year computer science engineering student. . The challenges and opportunities presented at the university level have been instrumental in shaping my understanding of the field, fostering a commitment to continuous learning and growth. My academic experience has equipped me with a solid foundation in computer science, and I am enthusiastic about applying my knowledge to real-world scenarios and contributing meaningfully to the ever-evolving technology landscape.";
+"  I completed my foundational years at the High School of Computer Science (ESI),Currently, I am continuing my educational journey at the University of Science and Technology Houari Boumediene (USTHB)"   ;
   let experience =
-    "igit comm built some websites like e commerce and portfolio website ...";
+    <div><h3>Clubs/Hackathons/Events : </h3>   comm built some websites like e commerce and portfolio website ...;
+    <h3>interships: </h3>   I had the privilege of embarking on  exploration journey during my internship at DJEZZY ,this experience  deepened my understanding of industry practice</div>
   let skills = "i know html css js and react c java github ..";
   let karim = <div>karim hada an</div>;
 
@@ -48,7 +49,7 @@ const AboutMe = () => {
               </button>
               <button
                 className="AboutClick"
-                onClick={(event) => hundleAboutClick(event, karim)}
+                onClick={(event) => hundleAboutClick(event, experience)}
               >
                 Experience
               </button>

@@ -3,8 +3,57 @@ import "./Projects.css";
 import Title from "../Title/Title";
 import Filter from "./Filter/Filter";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+ import carpoolingImg from "../../assets/couvoiturage.jpg";
+ import portfolioImg from "../../assets/portfolio.jpg";
+ import signalerImg from "../../assets/signaler.jpg";
+ import askImg from "../../assets/askquestion.jpg";
+ import memoryGameImg from "../../assets/game.jpg";
+ import schoolManagement from "../../assets/schoolManagement.jpg";
+import Project from "./Project/Project";
+
+ 
+
 
 const Projects = () => {
+const ProjectList = [
+  {
+    image : carpoolingImg,
+    title : "carpooling App",
+    description : "Carpooling app aimed to address the growing need for efficient and sustainable transportation solutions.",
+    service : ["ui"],
+    technologies : ["flutter" , "firebase"]
+  },
+  {
+    image : portfolioImg,
+    title : "My Portfolio",
+    description : "a portfolio to  showcase my skills, experiences, and projects.",
+    service : ["ui", "frontend"],
+    technologies : ["reactjs" ]
+  },
+  {
+    image :  schoolManagement,
+    title : "school management system",
+    description : "a platform to manage a university.",
+    services : ["ui"],
+    technologies : null
+  },
+  {
+    image :  askImg,
+    title : "FAQ ",
+    description : "Web page FAQ for our carpooling app",
+    services : ["frontend"],
+    technologies : ["vanilaJS"]
+  },
+  {
+    image :  signalerImg,
+    title : "Report User",
+    description : "web page to report users",
+    services : ["frontend"],
+    technologies : ["vanilaJS"]
+  },
+]
+
+
   /* show and disable the filter and sort categories and item after and before arrowicon click*/
   const [sortArrowUp, setSortArrowUp] = useState(false);
   const [filterArrowUp, setFilterArrowUp] = useState(false);
@@ -42,8 +91,8 @@ const Projects = () => {
 
   /****************************************************************** */
 
-  const serviceFilter = ["Ecommerce", "FrontEnd", "Backend", "gestion"];
-  const technologiesFilter = ["Reactjs", "Expressjs", "Nodejs", "wordpress"];
+  const serviceFilter = ["Ecommerce", "FrontEnd", "Backend", "gestion" , "Ui"];
+  const technologiesFilter = ["Reactjs", "Expressjs", "Nodejs", "wordpress","vanilaJS"];
   return (
     <div className="Projects">
       <div className="projectsContainer container">
@@ -84,7 +133,7 @@ const Projects = () => {
             <ul className={sortArrowUp ? " active sortList" : "sortList"}>
               <li>
                 <label htmlFor="newest">Newest</label>
-                <input type="radio" name="sort" id="newest" />
+                <input type="radio" name="sort" id="newest"  />
               </li>
               <li>
                 <label htmlFor="latest">Latest</label>
@@ -93,8 +142,17 @@ const Projects = () => {
             </ul>
           </div>
         </div>
+
+     <div className="projectList">
+      {
+        ProjectList.map((item,index)=>(
+          <Project project = {item}/>
+        ))
+      }
+     </div>
+        </div>
       </div>
-    </div>
+   
   );
 };
 

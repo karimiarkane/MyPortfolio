@@ -5,7 +5,7 @@ import Services from "./Components/Services/Services";
 
 import { useEffect } from "react";
 import Projects from "./Components/Projects/Projects";
-import ContactMe from "./Components/Projects/ContactMe/ContactMe";
+import ContactMe from "./Components/ContactMe/ContactMe";
 
 function App() {
   //this is for changing the color of the
