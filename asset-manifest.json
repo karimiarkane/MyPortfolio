@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.3c6368ef.css",
-    "main.js": "/MyPortfolio/static/js/main.4767eabe.js",
+    "main.css": "/MyPortfolio/static/css/main.b646d16a.css",
+    "main.js": "/MyPortfolio/static/js/main.256ff5ea.js",
     "static/media/Black White Minimalist CV Resume.pdf": "/MyPortfolio/static/media/Black White Minimalist CV Resume.7b27d57232378f5bced4.pdf",
+    "static/media/portfolio.jpg": "/MyPortfolio/static/media/portfolio.edc95a7b2497cf023d54.jpg",
+    "static/media/api.png": "/MyPortfolio/static/media/api.b6f08d83ea4f56905d06.png",
     "static/media/teaching.jpg": "/MyPortfolio/static/media/teaching.dc4f9c8e220316d19c1d.jpg",
     "static/media/seo1.jpg": "/MyPortfolio/static/media/seo1.889ec21c25da628e4b1a.jpg",
     "static/media/ecommerce.jpg": "/MyPortfolio/static/media/ecommerce.2e139b0a3282b487f4d1.jpg",
     "static/media/frontend.jpg": "/MyPortfolio/static/media/frontend.0ea0833815f555611ef5.jpg",
     "static/media/enlarge_myimage.jpg": "/MyPortfolio/static/media/enlarge_myimage.fcd117ce1f7e3f0e5cc3.jpg",
     "static/media/backend.jpg": "/MyPortfolio/static/media/backend.0298674b7233f7d7128a.jpg",
-    "static/media/api.jpg": "/MyPortfolio/static/media/api.563088839b1b23cef92d.jpg",
+    "static/media/uiux.jpg": "/MyPortfolio/static/media/uiux.d28f2b7e9827044e6149.jpg",
+    "static/media/schoolManagement.jpg": "/MyPortfolio/static/media/schoolManagement.ebcbb6a9ffd6f804da1d.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.3c6368ef.css.map": "/MyPortfolio/static/css/main.3c6368ef.css.map",
-    "main.4767eabe.js.map": "/MyPortfolio/static/js/main.4767eabe.js.map"
+    "main.b646d16a.css.map": "/MyPortfolio/static/css/main.b646d16a.css.map",
+    "main.256ff5ea.js.map": "/MyPortfolio/static/js/main.256ff5ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c6368ef.css",
-    "static/js/main.4767eabe.js"
+    "static/css/main.b646d16a.css",
+    "static/js/main.256ff5ea.js"
   ]
 }
