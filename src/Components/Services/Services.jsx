@@ -22,32 +22,32 @@ const Services = () => {
       serviceName: "UI/UX",
       serviceDesciption: "I specialize in translating ideas into visually appealing designs",
     },
-    // {
-    //   imageSrc: ecommeceImg,
-    //   serviceName: "Ecommerce",
-    //   serviceDesciption: "i used to create ecommerce website",
-    // },
-    // {
-    //   imageSrc: teachingImg,
-    //   serviceName: "teaching ",
-    //   serviceDesciption: "i used to teach  webdev",
-    // },
-    // {
-    //   imageSrc: seo1Img,
-    //   serviceName: "seo",
-    //   serviceDesciption: "i used to create high seo website",
-    // },
+    {
+      imageSrc: ecommeceImg,
+      serviceName: "Ecommerce",
+      serviceDesciption: "i used to create ecommerce website",
+    },
+    {
+      imageSrc: teachingImg,
+      serviceName: "teaching ",
+      serviceDesciption: "i used to teach  webdev",
+    },
+    {
+      imageSrc: seo1Img,
+      serviceName: "seo",
+      serviceDesciption: "i used to create high seo website",
+    },
     
-    // {
-    //   imageSrc: backendImg,
-    //   serviceName: "backend",
-    //   serviceDesciption: "i used to create robust backend for website",
-    // },
-    // {
-    //   imageSrc: apiImg,
-    //   serviceName: "api",
-    //   serviceDesciption: "i used to create api  and integrate them",
-    // },
+    {
+      imageSrc: backendImg,
+      serviceName: "backend",
+      serviceDesciption: "i used to create robust backend for website",
+    },
+    {
+      imageSrc: apiImg,
+      serviceName: "api",
+      serviceDesciption: "i used to create api  and integrate them",
+    },
   ];
   return (
     <div className="Services section" id="Services">

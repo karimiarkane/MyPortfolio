@@ -98,8 +98,8 @@ const ProjectList = [
 
   /****************************************************************** */
 
-  const serviceFilter = [ "FrontEnd", "Ui"];
-  const technologiesFilter = ["Reactjs", "vanilaJS" , "figma"];
+  const serviceFilter = [ "FrontEnd", "Ui",, "backend" , "api", "ecommerce" ];
+  const technologiesFilter = ["Reactjs", "vanilaJS" , "figma" , "Expressjs" , "expressjs" , "nodejs" , "mongodb"] ;
   return (
     <div className="Projects" id="Projects">
       <div className="projectsContainer container">
